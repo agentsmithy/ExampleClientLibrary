@@ -17,7 +17,6 @@
 		1A5352F9202B99350001F91C /* CLAlertMessageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5352F8202B99350001F91C /* CLAlertMessageRequest.swift */; };
 		1A5352FB202B99420001F91C /* CLAlertMessageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5352FA202B99420001F91C /* CLAlertMessageResponse.swift */; };
 		1A5352FD202BC9B60001F91C /* CLEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5352FC202BC9B60001F91C /* CLEnum.swift */; };
-		1A5352FF202BF4420001F91C /* IBMMobileKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5352FE202BF4420001F91C /* IBMMobileKit.framework */; };
 		1A535303202BF4640001F91C /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535302202BF4640001F91C /* ObjectMapper.framework */; };
 		1A535307202BF4880001F91C /* Mustache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535306202BF4880001F91C /* Mustache.framework */; };
 		1A535309202BF4930001F91C /* CleanroomLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535308202BF4920001F91C /* CleanroomLogger.framework */; };
@@ -73,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A5352FF202BF4420001F91C /* IBMMobileKit.framework in Frameworks */,
 				1A53530D202BF4B20001F91C /* CommonCrypto.framework in Frameworks */,
 				1A53530B202BF4A60001F91C /* Alamofire.framework in Frameworks */,
 				1A535309202BF4930001F91C /* CleanroomLogger.framework in Frameworks */,
@@ -449,6 +447,7 @@
 		1A5352DB202B95DF0001F91C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +482,7 @@
 		1A5352DC202B95DF0001F91C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
