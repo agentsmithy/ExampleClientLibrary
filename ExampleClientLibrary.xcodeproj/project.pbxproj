@@ -10,6 +10,21 @@
 		1A5352D0202B95DE0001F91C /* ExampleClientLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5352C6202B95DE0001F91C /* ExampleClientLibrary.framework */; };
 		1A5352D5202B95DE0001F91C /* ExampleClientLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5352D4202B95DE0001F91C /* ExampleClientLibraryTests.swift */; };
 		1A5352D7202B95DE0001F91C /* ExampleClientLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A5352C9202B95DE0001F91C /* ExampleClientLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A5352EA202B974C0001F91C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5352E9202B974B0001F91C /* Security.framework */; };
+		1A5352EC202B97540001F91C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5352EB202B97540001F91C /* libsqlite3.tbd */; };
+		1A5352EE202B975C0001F91C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5352ED202B975C0001F91C /* SystemConfiguration.framework */; };
+		1A5352F7202B98FC0001F91C /* CLAlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5352F6202B98FC0001F91C /* CLAlertMessage.swift */; };
+		1A5352F9202B99350001F91C /* CLAlertMessageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5352F8202B99350001F91C /* CLAlertMessageRequest.swift */; };
+		1A5352FB202B99420001F91C /* CLAlertMessageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5352FA202B99420001F91C /* CLAlertMessageResponse.swift */; };
+		1A5352FD202BC9B60001F91C /* CLEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5352FC202BC9B60001F91C /* CLEnum.swift */; };
+		1A5352FF202BF4420001F91C /* IBMMobileKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5352FE202BF4420001F91C /* IBMMobileKit.framework */; };
+		1A535303202BF4640001F91C /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535302202BF4640001F91C /* ObjectMapper.framework */; };
+		1A535307202BF4880001F91C /* Mustache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535306202BF4880001F91C /* Mustache.framework */; };
+		1A535309202BF4930001F91C /* CleanroomLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535308202BF4920001F91C /* CleanroomLogger.framework */; };
+		1A53530B202BF4A60001F91C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53530A202BF4A60001F91C /* Alamofire.framework */; };
+		1A53530D202BF4B20001F91C /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53530C202BF4B20001F91C /* CommonCrypto.framework */; };
+		1A53530F202BF4DF0001F91C /* AdobeMobileLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53530E202BF4DF0001F91C /* AdobeMobileLibrary.a */; };
+		1A535311202BF5130001F91C /* ADBMobile.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A535310202BF5130001F91C /* ADBMobile.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +44,28 @@
 		1A5352CF202B95DE0001F91C /* ExampleClientLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleClientLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5352D4202B95DE0001F91C /* ExampleClientLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleClientLibraryTests.swift; sourceTree = "<group>"; };
 		1A5352D6202B95DE0001F91C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5352E0202B97030001F91C /* Cartfile.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
+		1A5352E1202B97030001F91C /* Cartfile.private */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
+		1A5352E2202B97030001F91C /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		1A5352E6202B970F0001F91C /* VendorFrameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VendorFrameworks; sourceTree = "<group>"; };
+		1A5352E9202B974B0001F91C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1A5352EB202B97540001F91C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1A5352ED202B975C0001F91C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1A5352F0202B98250001F91C /* AdobeMobileLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AdobeMobileLibrary; sourceTree = "<group>"; };
+		1A5352F6202B98FC0001F91C /* CLAlertMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLAlertMessage.swift; sourceTree = "<group>"; };
+		1A5352F8202B99350001F91C /* CLAlertMessageRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLAlertMessageRequest.swift; sourceTree = "<group>"; };
+		1A5352FA202B99420001F91C /* CLAlertMessageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLAlertMessageResponse.swift; sourceTree = "<group>"; };
+		1A5352FC202BC9B60001F91C /* CLEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLEnum.swift; sourceTree = "<group>"; };
+		1A5352FE202BF4420001F91C /* IBMMobileKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMMobileKit.framework; path = VendorFrameworks/IBMMobileKit.framework; sourceTree = "<group>"; };
+		1A535300202BF4550001F91C /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		1A535302202BF4640001F91C /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		1A535304202BF46F0001F91C /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		1A535306202BF4880001F91C /* Mustache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mustache.framework; path = Carthage/Build/iOS/Mustache.framework; sourceTree = "<group>"; };
+		1A535308202BF4920001F91C /* CleanroomLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleanroomLogger.framework; path = Carthage/Build/iOS/CleanroomLogger.framework; sourceTree = "<group>"; };
+		1A53530A202BF4A60001F91C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		1A53530C202BF4B20001F91C /* CommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonCrypto.framework; path = Carthage/Build/iOS/CommonCrypto.framework; sourceTree = "<group>"; };
+		1A53530E202BF4DF0001F91C /* AdobeMobileLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = AdobeMobileLibrary.a; path = "Sources/Supporting Files/AdobeMobileLibrary/AdobeMobileLibrary.a"; sourceTree = "<group>"; };
+		1A535310202BF5130001F91C /* ADBMobile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ADBMobile.h; path = "Sources/Supporting Files/AdobeMobileLibrary/ADBMobile.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +73,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5352FF202BF4420001F91C /* IBMMobileKit.framework in Frameworks */,
+				1A53530D202BF4B20001F91C /* CommonCrypto.framework in Frameworks */,
+				1A53530B202BF4A60001F91C /* Alamofire.framework in Frameworks */,
+				1A535309202BF4930001F91C /* CleanroomLogger.framework in Frameworks */,
+				1A535307202BF4880001F91C /* Mustache.framework in Frameworks */,
+				1A535303202BF4640001F91C /* ObjectMapper.framework in Frameworks */,
+				1A5352EA202B974C0001F91C /* Security.framework in Frameworks */,
+				1A5352EC202B97540001F91C /* libsqlite3.tbd in Frameworks */,
+				1A5352EE202B975C0001F91C /* SystemConfiguration.framework in Frameworks */,
+				1A53530F202BF4DF0001F91C /* AdobeMobileLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,9 +100,15 @@
 		1A5352BC202B95DE0001F91C = {
 			isa = PBXGroup;
 			children = (
-				1A5352C8202B95DE0001F91C /* ExampleClientLibrary */,
-				1A5352D3202B95DE0001F91C /* ExampleClientLibraryTests */,
+				1A535310202BF5130001F91C /* ADBMobile.h */,
+				1A5352E2202B97030001F91C /* Cartfile */,
+				1A5352E1202B97030001F91C /* Cartfile.private */,
+				1A5352E0202B97030001F91C /* Cartfile.resolved */,
+				1A5352C8202B95DE0001F91C /* Sources */,
+				1A5352D3202B95DE0001F91C /* Tests */,
 				1A5352C7202B95DE0001F91C /* Products */,
+				1A5352E6202B970F0001F91C /* VendorFrameworks */,
+				1A5352E8202B974B0001F91C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,22 +121,78 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1A5352C8202B95DE0001F91C /* ExampleClientLibrary */ = {
+		1A5352C8202B95DE0001F91C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1A5352F2202B985B0001F91C /* Core */,
+				1A5352EF202B97E30001F91C /* Supporting Files */,
 				1A5352C9202B95DE0001F91C /* ExampleClientLibrary.h */,
 				1A5352CA202B95DE0001F91C /* Info.plist */,
 			);
-			path = ExampleClientLibrary;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		1A5352D3202B95DE0001F91C /* ExampleClientLibraryTests */ = {
+		1A5352D3202B95DE0001F91C /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				1A5352D4202B95DE0001F91C /* ExampleClientLibraryTests.swift */,
 				1A5352D6202B95DE0001F91C /* Info.plist */,
 			);
-			path = ExampleClientLibraryTests;
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		1A5352E8202B974B0001F91C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A53530E202BF4DF0001F91C /* AdobeMobileLibrary.a */,
+				1A53530C202BF4B20001F91C /* CommonCrypto.framework */,
+				1A53530A202BF4A60001F91C /* Alamofire.framework */,
+				1A535308202BF4920001F91C /* CleanroomLogger.framework */,
+				1A535306202BF4880001F91C /* Mustache.framework */,
+				1A535304202BF46F0001F91C /* Nimble.framework */,
+				1A535302202BF4640001F91C /* ObjectMapper.framework */,
+				1A535300202BF4550001F91C /* Quick.framework */,
+				1A5352FE202BF4420001F91C /* IBMMobileKit.framework */,
+				1A5352ED202B975C0001F91C /* SystemConfiguration.framework */,
+				1A5352EB202B97540001F91C /* libsqlite3.tbd */,
+				1A5352E9202B974B0001F91C /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A5352EF202B97E30001F91C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A5352F0202B98250001F91C /* AdobeMobileLibrary */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A5352F2202B985B0001F91C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1A5352F5202B987A0001F91C /* API */,
+				1A5352F3202B98620001F91C /* Models */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1A5352F3202B98620001F91C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A5352F6202B98FC0001F91C /* CLAlertMessage.swift */,
+				1A5352FC202BC9B60001F91C /* CLEnum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1A5352F5202B987A0001F91C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1A5352F8202B99350001F91C /* CLAlertMessageRequest.swift */,
+				1A5352FA202B99420001F91C /* CLAlertMessageResponse.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A5352D7202B95DE0001F91C /* ExampleClientLibrary.h in Headers */,
+				1A535311202BF5130001F91C /* ADBMobile.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +258,7 @@
 				TargetAttributes = {
 					1A5352C5202B95DE0001F91C = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					1A5352CE202B95DE0001F91C = {
@@ -196,6 +307,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5352F7202B98FC0001F91C /* CLAlertMessage.swift in Sources */,
+				1A5352F9202B99350001F91C /* CLAlertMessageRequest.swift in Sources */,
+				1A5352FB202B99420001F91C /* CLAlertMessageResponse.swift in Sources */,
+				1A5352FD202BC9B60001F91C /* CLEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +449,7 @@
 		1A5352DB202B95DF0001F91C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -341,12 +457,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ExampleClientLibrary/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VendorFrameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sources/Supporting\\ Files/AdobeMobileLibrary",
+					"$(PROJECT_DIR)/Sources/Supporting\\ Files/AdobeMobileLibrary",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.jamesreeve.ExampleClientLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +483,7 @@
 		1A5352DC202B95DF0001F91C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -362,9 +491,20 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ExampleClientLibrary/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VendorFrameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sources/Supporting\\ Files/AdobeMobileLibrary",
+					"$(PROJECT_DIR)/Sources/Supporting\\ Files/AdobeMobileLibrary",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.jamesreeve.ExampleClientLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -376,6 +516,7 @@
 		1A5352DE202B95DF0001F91C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5ND29TB5RN;
 				INFOPLIST_FILE = ExampleClientLibraryTests/Info.plist;
@@ -390,6 +531,7 @@
 		1A5352DF202B95DF0001F91C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5ND29TB5RN;
 				INFOPLIST_FILE = ExampleClientLibraryTests/Info.plist;

@@ -1,0 +1,13 @@
+[Cache]
+  S3-Bucket = amp-mobile-ios-lab
+  local = ~/Library/Caches/Rome/
+
+[RepositoryMap]
+  HockeySDK-iOS = HockeySDK
+  MyAMP-iOS-Client-Library  = MyAMPClientLibrary
+  GRMustache.swift = Mustache
+  TPKeyboardAvoiding = TPKeyboardAvoidingKit
+  GzipSwift = Gzip
+
+[IgnoreMap]
+  xcconfigs = xcconfigs

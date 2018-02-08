@@ -1,0 +1,7 @@
+github "Alamofire/Alamofire" "4.5.1"
+github "Hearst-DD/ObjectMapper" "3.0.0"
+github "Quick/Nimble" "v7.0.2"
+github "Quick/Quick" "v1.2.0"
+github "emaloney/CleanroomLogger" "6.0.0"
+github "groue/GRMustache.swift" "2.0.0"
+github "soffes/CommonCrypto" "v1.1.0"
